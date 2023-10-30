@@ -1,0 +1,16 @@
+.shopDeals {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__left {
+    &__title {
+      font-size: 2em;
+    }
+  }
+  &__right{
+    img{
+        width: 350px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.home-banner {
+  background-color: var(--secondary-color);
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    padding-top: 2em;
+    &__left {
+      &--title {
+        .highlight {
+          color: var(--primary-color);
+        }
+      }
+    }
+    &__right {
+      &--image {
+        width: 440px;
+        object-fit: cover;
+      }
+    }
+  }
+}

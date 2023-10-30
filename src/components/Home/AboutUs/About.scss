@@ -1,0 +1,136 @@
+.about {
+  margin-top: 3em;
+  background-color: #cdebf6;
+  padding: 3em 0;
+  padding-left: 3em;
+  &__desc {
+    width: 40%;
+  }
+  .wrapper {
+    margin-top: 3em;
+
+    .explore {
+      h2 {
+        writing-mode: vertical-rl;
+        font-size: 3em;
+        color: rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+    }
+  }
+  .main-container {
+    display: flex;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 95%;
+  }
+  .test_box {
+    padding: 0;
+  }
+  .test_box .inner {
+    display: block;
+    overflow: hidden;
+  }
+  .test_box .inner .test_click {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    mix-blend-mode: normal;
+    text-align: end;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  .test_box .inner:hover {
+    transform: scale(1.05);
+    transition: all 300ms;
+  }
+  .test_box .inner .test_click:hover {
+    background-color: rgb(0, 0, 0, 0.4);
+    mix-blend-mode: hard-light;
+  }
+  .flex_this {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: inherit;
+    flex-wrap: inherit;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    width: 100%;
+  }
+  .test_box .inner .test_click:hover .flex_this {
+    margin-top: -5px;
+  }
+
+  .test_title {
+    display: block;
+    font-weight: 700;
+    margin: 0 0 20px;
+    width: 100%;
+  }
+  .test_link {
+    border: 2px solid #fff;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    padding: 10px 30px;
+    text-transform: uppercase;
+  }
+
+  .box-01 .inner {
+    background-image: url("https://img.freepik.com/free-photo/elegant-young-handsome-man_1301-5870.jpg?w=740&t=st=1695895816~exp=1695896416~hmac=332086d15d2170edda91f3258f47f8039a28f0540226faefa80b7bfa03d75c8c");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-02 .inner {
+    background-image: url("https://img.freepik.com/free-photo/young-cheerful-woman-red-dress-joyfully-looking-camera-while-holding-colorful-shopping-bags-hand-with-big-door-background_574295-5400.jpg?w=1380&t=st=1695895664~exp=1695896264~hmac=c65d65f5e575757f2cd9540d7515ea9d255f9c11053e22c8ec7836843d8ef8b9");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-03 .inner {
+    background-image: url("https://img.freepik.com/free-photo/cute-little-girl-shopping_624325-3892.jpg?w=740&t=st=1695895653~exp=1695896253~hmac=e736126ac8578849e10b541e1bf7e80e1a4537fb5a570f927315df33b670360d");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-04 .inner {
+    background-image: url("https://img.freepik.com/free-photo/social-distance-concept-outdoor_23-2148768434.jpg?w=1380&t=st=1695895986~exp=1695896586~hmac=80835dfb7a496e504ead3b7a24b9a454f3aa3cff0152632e665142d5da94dfbc");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-05 .inner {
+    background-image: url("https://img.freepik.com/free-photo/retro-brown-man-leather-bag-notebook-bright-colorful-summer-grass-park_158538-12191.jpg?w=1380&t=st=1695895850~exp=1695896450~hmac=38badbdd676f75778670b252ed8c2736e958f7879c89fd060b1beb5ac79e7c16");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-06 .inner {
+    background-image: url("https://img.freepik.com/free-photo/trendy-couple-gloomy-city_1157-14936.jpg?w=1380&t=st=1695896286~exp=1695896886~hmac=f29a2f183307798baeaec128994dda690d961e7155793d213af1a86f165a18c1");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
